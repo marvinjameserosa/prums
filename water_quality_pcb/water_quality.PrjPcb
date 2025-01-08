@@ -50,23 +50,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=water_quality.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VTTVHKXC
-
-[Document2]
 DocumentPath=water_quality.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SQWENSBJ
 
-[Document3]
+[Document2]
 DocumentPath=water_quality.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,6 +83,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DWWWRNXV
 
+[Document3]
+DocumentPath=water_quality.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FALQMAFI
+
 [Document4]
 DocumentPath=water_quality.PcbDoc
 AnnotationEnabled=1
@@ -115,7 +115,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HOUVHBKY
+DocumentUniqueId=LBKHSYQB
 
 [Configuration1]
 Name=Sources
@@ -1078,13 +1078,13 @@ GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
 
 [PrjClassGen]
-CompClassManualEnabled=0
-CompClassManualRoomEnabled=0
+CompClassManualEnabled=1
+CompClassManualRoomEnabled=1
 NetClassAutoBusEnabled=1
-NetClassAutoCompEnabled=0
-NetClassAutoNamedHarnessEnabled=0
+NetClassAutoCompEnabled=1
+NetClassAutoNamedHarnessEnabled=1
 NetClassManualEnabled=1
-NetClassSeparateForBusSections=0
+NetClassSeparateForBusSections=1
 
 [LibraryUpdateOptions]
 SelectedOnly=1
